@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "lc-demo"
+version = "0.1.0"
+description = "Towards real time conversations with AI"
+authors = ["transfaeries"]
+readme = "README.md"
+packages = [{include = "lc_demo"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jupyter = "^1.0.0"
+replicate = "^0.21.0"
+torchaudio = "^2.1.1"
+ipywebrtc = "^0.6.0"
+notebook = "^7.0.6"
+sounddevice = "^0.4.6"
+scipy = "^1.11.4"
+pyaudio = "^0.2.14"
+python-vlc = "^3.0.20123"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
