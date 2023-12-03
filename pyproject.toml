@@ -10,7 +10,6 @@ packages = [{include = "lc_demo"}]
 python = "^3.11"
 jupyter = "^1.0.0"
 replicate = "^0.21.0"
-torchaudio = "^2.1.1"
 ipywebrtc = "^0.6.0"
 notebook = "^7.0.6"
 sounddevice = "^0.4.6"
