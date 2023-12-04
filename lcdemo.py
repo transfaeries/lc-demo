@@ -91,6 +91,7 @@ if __name__ == "__main__":
         player.play()
         time.sleep(1.5)
         duration = player.get_length() / 1000
-        time.sleep(duration)
+        ## let user start recording before the AI is finished
+        time.sleep(int(duration/2))
 
 
